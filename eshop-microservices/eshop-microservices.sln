@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{70
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{DADBE331-FE14-45FB-B71C-9468AB30D49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "services\Catalog\Catalog.API\Catalog.API.csproj", "{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "services\Catalog\Catalog.API\Catalog.API.csproj", "{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{853FE9F8-F2CF-4BA0-86E9-98C3D0059F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "Core\CoreLibrary\CoreLibrary.csproj", "{0C5B12F7-ED85-434A-9631-A89855946C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5B12F7-ED85-434A-9631-A89855946C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5B12F7-ED85-434A-9631-A89855946C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5B12F7-ED85-434A-9631-A89855946C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5B12F7-ED85-434A-9631-A89855946C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DADBE331-FE14-45FB-B71C-9468AB30D49C} = {706BC3AD-26DF-48F1-AE38-4F5AB0C5BF4F}
 		{F99A101B-FD31-4EBE-A64E-A9F24B1ABA21} = {DADBE331-FE14-45FB-B71C-9468AB30D49C}
+		{0C5B12F7-ED85-434A-9631-A89855946C07} = {853FE9F8-F2CF-4BA0-86E9-98C3D0059F30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1358E81D-84B4-46B2-85FB-0676F83D0523}
