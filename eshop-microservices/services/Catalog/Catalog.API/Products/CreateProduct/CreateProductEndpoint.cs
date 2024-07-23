@@ -1,7 +1,4 @@
-﻿using Carter;
-using Mapster;
-using MediatR;
-
+﻿
 namespace Catalog.API.Products.CreateProduct
 {
     // Requests and response objects
